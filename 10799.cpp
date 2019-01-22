@@ -16,11 +16,11 @@ int main() {
 		}
 		else {	// 닫힌 괄호가 나오면 비교하기
 			if (stk.top() + 1 == i) {
-				stk.pop();	// 스택이 비어있지 않으면 ( pop
+				stk.pop();	
 				ans += stk.size();
 			}
 			else {
-				stk.pop();	// 스택이 비어있으면 false 리턴
+				stk.pop();
 				ans += 1;
 			}
 		}
